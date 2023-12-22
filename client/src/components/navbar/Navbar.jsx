@@ -14,6 +14,7 @@ const Navbar = () => {
         <div className="navItems">
           <ul>
             <li><Link to="/" className="navLinks active" >Home</Link></li>
+            <li><Link to="/volunteer" className="navLinks active" >Volunteer</Link></li>
             <li><Link to="/" className="navLinks active">Dashboard</Link></li>
             <li><Link to="/guidelines" className="navLinks active">Guidelines</Link></li>
             <li><Link to="/" className="navLinks active">Rules</Link></li>

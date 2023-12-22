@@ -1,0 +1,52 @@
+.cardContainer{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 400px;
+    /* margin: auto; */
+    margin: 100px 0 0 100px !important;
+    border-radius: 15px;
+    background: #676767;
+}
+.cardTitle{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.cardTitle span{
+    font-weight: 900;
+}
+.underLine{
+    border: 3px solid black;
+    width: 120px;
+    border-radius: 50px;
+}
+.cardPersonal{
+    margin:15px;
+}
+.cardAddress{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.dropdowns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 5px; */
+    margin-bottom: 15px;
+}
+.provinceDropdown select, .districtDropdown select{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 300px;
+    /* background: white transparent; */
+    color: #797979;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #eaeaea;
+    padding-left: 36px;
+    margin: 5px;
+}
